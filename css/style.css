@@ -4,7 +4,7 @@ nav {
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  background-color: #05677a;
+  background-color: #808080;
   color: #031c21;
   padding: 1rem;
   margin-top: 5rem;
@@ -14,8 +14,8 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: Grey;
-  color: #1bab6f;
+  background-color: #808080;
+  color: #808080;
   padding: 1rem 0;
   text-align: center;
 }
@@ -31,9 +31,9 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  background: white;
+  background: #ffa500;
   font-weight: bold;
-  color: Brown;
+  color: #ffa500;
   text-align: center;
   position: relative;
   font-size: 25px;
@@ -46,7 +46,7 @@ main {
   width: 90%;
   max-width: 800px;
   margin: 2rem auto;
-  background-color: Brown;
+  background-color:#ff0000;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0;
@@ -58,12 +58,12 @@ h1, h2, p {
 
 h1 {
   font-size: 3rem;
-  color: Grey;
+  color: #ff0000;
 }
 
 h2 {
   font-size: 2rem;
-  color:Black;
+  color:#000000;
 }
 
 p {
@@ -72,7 +72,7 @@ p {
 }
 
 .Cigar-section {
-  background-color: Brown;
+  background-color: #808080;
   padding-right: 2em;
   text-align: center;
   width: 800px;
@@ -86,16 +86,16 @@ p {
 }
 
 nav ul li a:hover {
-  background-color: Grey;
-  color: Black;
+  background-color: #ffa500;
+  color: #ffa500;
   text-transform: uppercase;   
   
 }
 
 .resume-section {
-  background-color: Grey;
+  background-color: #808080;
   padding: 1.5rem;
-  border-left: 4px solid #1bab6f;
+  border-left: 4px solid #808080;
   margin-bottom: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px 0;
@@ -129,12 +129,12 @@ img {
 
 .Cigar-section h1 {
   font-size: 2.5rem;
-  color: #05677a;
+  color: #808080;
   text-align: center;
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem; 
-  background-color: #ddcaeb;
+  background-color: #808080;
   padding: 0.3rem 0.5rem;
   border-radius: 5px; 
   box-shadow: 0 2px 4px;
