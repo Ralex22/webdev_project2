@@ -1,51 +1,67 @@
-body {
-  background-image: url("../media/grey.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 7px;
-  font-family: Arial, sans-serif;
-  color: black; /* Sets the default text color to black */
+
+#main-navbar {
+  background-color: Grey;
+  overflow: hidden;
 }
 
-img {
-  display: flex;
-  max-width: 100%;
-  height: auto;
-  z-index: auto;
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
-td {
-  font-size: 1em;
-  line-height: 1.6;
-  color: black; /* Ensures table text is black */
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
 }
 
-div {
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: Pink;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  list-style-type: none;
   text-align: center;
-  color: black; /* Ensures div text is black */
+  padding: 0;
 }
 
-li {
-  color: black;
-  font-size: 1em;
+#sidebar ul li a {
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
 }
 
-h1 {
-  color: black;
-  text-align: center;
-  font-family: 'Devonshire', Georgia;
-}
-
-header a .image1 img {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-td, th {
-  border: 1px solid black; /* Changes the border outline to black */
-  color: black; /* Ensures table header and cell text is black */
-  font-family: "Arial", cursive;
+#sidebar ul li a:hover {
+  background-color: #000;
 }
