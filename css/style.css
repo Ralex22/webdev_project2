@@ -14,7 +14,7 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: #17bdb4;
+  background-color: Grey;
   color: #1bab6f;
   padding: 1rem 0;
   text-align: center;
@@ -33,7 +33,7 @@ nav ul li a {
   text-decoration: none;
   background: white;
   font-weight: bold;
-  color: #32e399;
+  color: Brown;
   text-align: center;
   position: relative;
   font-size: 25px;
@@ -58,12 +58,12 @@ h1, h2, p {
 
 h1 {
   font-size: 3rem;
-  color: #020a26;
+  color: Grey;
 }
 
 h2 {
   font-size: 2rem;
-  color: #020a26;
+  color:Black;
 }
 
 p {
