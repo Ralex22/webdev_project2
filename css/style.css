@@ -1,76 +1,153 @@
-body {
-  background-image: url("../media/grey.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 7px;
-  font-family: Arial, sans-serif;
-  color: black; /* Sets the default text color to black */
+nav {
+  text-align: center;
 }
-#main-navbar {
-  background-color: Grey;
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #05677a;
+  color: #031c21;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #17bdb4;
+  color: #1bab6f;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
-}
-
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
-}
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
+nav ul li a {
   text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-}
-
-#onpage {
-  text-decoration: underline overline;
-}
-
-#sidebar {
-  position: fixed;
-  right: 0%;
-  background-color: Pink;
-  height: 100%;
-  width: 20%;
-}
-
-#sidebar ul {
-  list-style-type: none;
+  background: white;
+  font-weight: bold;
+  color: #32e399;
   text-align: center;
-  padding: 0;
+  position: relative;
+  font-size: 25px;
+  padding: 0.5rem 1rem;
+  
+ 
 }
 
-#sidebar ul li a {
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: Brown;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0;
+}
+
+h1, h2, p {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #020a26;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #020a26;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.Cigar-section {
+  background-color: Brown;
+  padding-right: 2em;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.Cigar-section ul,
+.Cigar-section ol {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+nav ul li a:hover {
+  background-color: Grey;
+  color: Black;
+  text-transform: uppercase;   
+  
+}
+
+.resume-section {
+  background-color: Grey;
+  padding: 1.5rem;
+  border-left: 4px solid #1bab6f;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px 0;
+}
+
+.porsche-section {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+iframe {
   display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-decoration: none;
+  max-width: 100%;
+  width: 540px;
+  height: 285px;
+  margin: 2rem auto;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px;
 }
 
-#sidebar ul li a:hover {
-  background-color: #000;
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px;
+  border: 3px solid #a39ea3;
+}
+
+.Cigar-section h1 {
+  font-size: 2.5rem;
+  color: #05677a;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem; 
+  background-color: #ddcaeb;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px;
+  display: inline-block;
+}
+
+nav ul li {
+  float: left;
+  margin-right: 1rem;
+}
+
+.porsche-section img {
+  float: right;
+  margin: 1rem;
+  max-width: 300px;
 }
