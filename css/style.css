@@ -1,153 +1,51 @@
-nav {
-  text-align: center;
-}
-
 body {
-  font-family: 'Roboto', Arial, sans-serif;
-  background-color: #808080;
-  color: #031c21;
-  padding: 1rem;
-  margin-top: 5rem;
-}
-
-header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-color: #808080;
-  color: #808080;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav ul li a {
-  text-decoration: none;
-  background: #ffa500;
-  font-weight: bold;
-  color: #ffa500;
-  text-align: center;
-  position: relative;
-  font-size: 25px;
-  padding: 0.5rem 1rem;
-  
- 
-}
-
-main {
-  width: 90%;
-  max-width: 800px;
-  margin: 2rem auto;
-  background-color:#ff0000;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0;
-}
-
-h1, h2, p {
-  margin: 1rem 0;
-}
-
-h1 {
-  font-size: 3rem;
-  color: #ff0000;
-}
-
-h2 {
-  font-size: 2rem;
-  color:#000000;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.Cigar-section {
-  background-color: #808080;
-  padding-right: 2em;
-  text-align: center;
-  width: 800px;
-  margin: 0 auto;
-}
-
-.Cigar-section ul,
-.Cigar-section ol {
-  list-style: none;
-  padding-left: 1.5rem;
-}
-
-nav ul li a:hover {
-  background-color: #ffa500;
-  color: #ffa500;
-  text-transform: uppercase;   
-  
-}
-
-.resume-section {
-  background-color: #808080;
-  padding: 1.5rem;
-  border-left: 4px solid #808080;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px 0;
-}
-
-.porsche-section {
-  font-size: 1.2rem;
-  font-style: italic;
-}
-
-iframe {
-  display: block;
-  max-width: 100%;
-  width: 540px;
-  height: 285px;
-  margin: 2rem auto;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px;
+  background-image: url("../media/grey.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 7px;
+  font-family: Arial, sans-serif;
+  color: black; /* Sets the default text color to black */
 }
 
 img {
+  display: flex;
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 2rem auto;
-  border-radius: 10px;
-  box-shadow: 0 6px 10px;
-  border: 3px solid #a39ea3;
+  z-index: auto;
 }
 
-.Cigar-section h1 {
-  font-size: 2.5rem;
-  color: #808080;
+td {
+  font-size: 1em;
+  line-height: 1.6;
+  color: black; /* Ensures table text is black */
+}
+
+div {
   text-align: center;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem; 
-  background-color: #808080;
-  padding: 0.3rem 0.5rem;
-  border-radius: 5px; 
-  box-shadow: 0 2px 4px;
-  display: inline-block;
+  color: black; /* Ensures div text is black */
 }
 
-nav ul li {
-  float: left;
-  margin-right: 1rem;
+li {
+  color: black;
+  font-size: 1em;
 }
 
-.porsche-section img {
-  float: right;
-  margin: 1rem;
-  max-width: 300px;
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Devonshire', Georgia;
+}
+
+header a .image1 img {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+td, th {
+  border: 1px solid black; /* Changes the border outline to black */
+  color: black; /* Ensures table header and cell text is black */
+  font-family: "Arial", cursive;
 }
