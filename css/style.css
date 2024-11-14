@@ -1,3 +1,14 @@
+body {
+  background-image: url("../media/grey.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 7px;
+  font-family: Arial, sans-serif;
+  color: black; /* Sets the default text color to black */
+}
+
 nav {
   text-align: center;
 }
